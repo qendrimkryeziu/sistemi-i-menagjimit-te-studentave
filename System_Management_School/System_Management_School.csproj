@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTeacher.Designer.cs">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Fees.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,12 +78,27 @@
     <Compile Include="SearchStudent.Designer.cs">
       <DependentUpon>SearchStudent.cs</DependentUpon>
     </Compile>
+    <Compile Include="SearchTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchTeacher.Designer.cs">
+      <DependentUpon>SearchTeacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudnetIndividualDetali.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudnetIndividualDetali.Designer.cs">
+      <DependentUpon>StudnetIndividualDetali.cs</DependentUpon>
+    </Compile>
     <Compile Include="UpgradeSemester.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UpgradeSemester.Designer.cs">
       <DependentUpon>UpgradeSemester.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddTeacher.resx">
+      <DependentUpon>AddTeacher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Fees.resx">
       <DependentUpon>Fees.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +119,12 @@
     </Compile>
     <EmbeddedResource Include="SearchStudent.resx">
       <DependentUpon>SearchStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchTeacher.resx">
+      <DependentUpon>SearchTeacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudnetIndividualDetali.resx">
+      <DependentUpon>StudnetIndividualDetali.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UpgradeSemester.resx">
       <DependentUpon>UpgradeSemester.cs</DependentUpon>

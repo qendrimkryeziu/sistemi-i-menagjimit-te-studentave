@@ -201,8 +201,9 @@
             // individualDetailsToolStripMenuItem
             // 
             this.individualDetailsToolStripMenuItem.Name = "individualDetailsToolStripMenuItem";
-            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.individualDetailsToolStripMenuItem.Text = "Individual Details";
+            this.individualDetailsToolStripMenuItem.Click += new System.EventHandler(this.individualDetailsToolStripMenuItem_Click);
             // 
             // teachersToolStripMenuItem
             // 
@@ -221,6 +222,7 @@
             this.addTeacherInformationToolStripMenuItem.Name = "addTeacherInformationToolStripMenuItem";
             this.addTeacherInformationToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.addTeacherInformationToolStripMenuItem.Text = "Add Teacher Information";
+            this.addTeacherInformationToolStripMenuItem.Click += new System.EventHandler(this.addTeacherInformationToolStripMenuItem_Click);
             // 
             // searchToolStripMenuItem
             // 

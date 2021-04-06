@@ -61,5 +61,17 @@ namespace System_Management_School
             SearchStudent ss = new SearchStudent();
             ss.Show();
         }
+
+        private void individualDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StudentIndividualDetali sid = new StudentIndividualDetali();
+            sid.Show();
+        }
+
+        private void addTeacherInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddTeacher at = new AddTeacher();
+            at.Show();
+        }
     }
 }
