@@ -28,3 +28,6 @@ C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\ob
 C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.pdb
 C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.StudentIndividualDetali.resources
 C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.AddTeacher.resources
+C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.SearchTeacher.resources
+C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.RemoveStudent.resources
+C:\Users\Qendrim\source\WFA\System_Management_School\System_Management_School\obj\Debug\System_Management_School.AboutUs.resources

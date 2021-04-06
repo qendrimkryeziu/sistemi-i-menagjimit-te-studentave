@@ -194,14 +194,14 @@
             // searchStudentToolStripMenuItem
             // 
             this.searchStudentToolStripMenuItem.Name = "searchStudentToolStripMenuItem";
-            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.searchStudentToolStripMenuItem.Text = "Search Student";
             this.searchStudentToolStripMenuItem.Click += new System.EventHandler(this.searchStudentToolStripMenuItem_Click);
             // 
             // individualDetailsToolStripMenuItem
             // 
             this.individualDetailsToolStripMenuItem.Name = "individualDetailsToolStripMenuItem";
-            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.individualDetailsToolStripMenuItem.Text = "Individual Details";
             this.individualDetailsToolStripMenuItem.Click += new System.EventHandler(this.individualDetailsToolStripMenuItem_Click);
             // 
@@ -229,6 +229,7 @@
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
             this.searchToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
             this.searchToolStripMenuItem.Text = "Search";
+            this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // removeStudentToolStripMenuItem
             // 
@@ -238,6 +239,7 @@
             this.removeStudentToolStripMenuItem.Size = new System.Drawing.Size(106, 83);
             this.removeStudentToolStripMenuItem.Text = "Remove Student";
             this.removeStudentToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.removeStudentToolStripMenuItem.Click += new System.EventHandler(this.removeStudentToolStripMenuItem_Click);
             // 
             // aboutUsToolStripMenuItem
             // 
@@ -247,6 +249,7 @@
             this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(76, 83);
             this.aboutUsToolStripMenuItem.Text = "About Us";
             this.aboutUsToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
             // exitSystemToolStripMenuItem
             // 
@@ -256,6 +259,7 @@
             this.exitSystemToolStripMenuItem.Size = new System.Drawing.Size(79, 83);
             this.exitSystemToolStripMenuItem.Text = "Exit System";
             this.exitSystemToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+            this.exitSystemToolStripMenuItem.Click += new System.EventHandler(this.exitSystemToolStripMenuItem_Click);
             // 
             // Form1
             // 

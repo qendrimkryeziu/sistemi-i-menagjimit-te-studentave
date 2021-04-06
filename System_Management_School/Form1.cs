@@ -73,5 +73,33 @@ namespace System_Management_School
             AddTeacher at = new AddTeacher();
             at.Show();
         }
+
+        private void searchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SearchTeacher st = new SearchTeacher();
+            st.Show();
+        }
+
+        private void removeStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RemoveStudent rs = new RemoveStudent();
+            rs.Show();
+        }
+
+        private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutUs ab = new AboutUs();
+            ab.Show();
+        }
+
+        private void exitSystemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("A jeni i sigurtë? Kjo do te fshije te dhenat tuaja te pa ruajtura", "Konfirmoni vazhdimin", MessageBoxButtons.OKCancel,MessageBoxIcon.Warning) == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+
+            
+        }
     }
 }
