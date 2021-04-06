@@ -86,7 +86,6 @@
             "2nd Sem",
             "3rd Sem",
             "4th Sem",
-            "4th Sem",
             "5th Sem",
             "6th Sem"});
             this.comboBoxTo.Location = new System.Drawing.Point(189, 287);
@@ -101,9 +100,9 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(90, 240);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 23);
+            this.label2.Size = new System.Drawing.Size(51, 23);
             this.label2.TabIndex = 4;
-            this.label2.Text = "From :";
+            this.label2.Text = "Prej :";
             // 
             // label3
             // 
@@ -113,7 +112,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 23);
             this.label3.TabIndex = 5;
-            this.label3.Text = "To :";
+            this.label3.Text = "Te :";
             // 
             // btnUpgrade
             // 

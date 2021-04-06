@@ -176,7 +176,7 @@ namespace System_Management_School
             this.Controls.Add(this.pictureBox1);
             this.Name = "AboutUs";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AboutUs";
+            this.Text = "Me shumë per ne";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

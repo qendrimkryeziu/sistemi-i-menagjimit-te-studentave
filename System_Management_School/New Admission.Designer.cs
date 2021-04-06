@@ -155,9 +155,9 @@
             this.label10.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(488, 267);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(37, 23);
+            this.label10.Size = new System.Drawing.Size(102, 23);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Viti";
+            this.label10.Text = "Kohezgjatja";
             // 
             // label11
             // 
@@ -236,22 +236,22 @@
             this.radioButtonMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButtonMale.Location = new System.Drawing.Point(222, 217);
             this.radioButtonMale.Name = "radioButtonMale";
-            this.radioButtonMale.Size = new System.Drawing.Size(58, 22);
+            this.radioButtonMale.Size = new System.Drawing.Size(85, 22);
             this.radioButtonMale.TabIndex = 18;
             this.radioButtonMale.TabStop = true;
-            this.radioButtonMale.Text = "Male";
+            this.radioButtonMale.Text = "Mashkull";
             this.radioButtonMale.UseVisualStyleBackColor = true;
             // 
             // radioButtonFemale
             // 
             this.radioButtonFemale.AutoSize = true;
             this.radioButtonFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButtonFemale.Location = new System.Drawing.Point(285, 217);
+            this.radioButtonFemale.Location = new System.Drawing.Point(313, 216);
             this.radioButtonFemale.Name = "radioButtonFemale";
-            this.radioButtonFemale.Size = new System.Drawing.Size(75, 22);
+            this.radioButtonFemale.Size = new System.Drawing.Size(69, 22);
             this.radioButtonFemale.TabIndex = 19;
             this.radioButtonFemale.TabStop = true;
-            this.radioButtonFemale.Text = "Female";
+            this.radioButtonFemale.Text = "Femer";
             this.radioButtonFemale.UseVisualStyleBackColor = true;
             // 
             // dateTimePickerDOB
@@ -388,7 +388,7 @@
             this.Controls.Add(this.label1);
             this.Name = "New_Admission";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "New_Admission";
+            this.Text = "Studentë te ri";
             this.Load += new System.EventHandler(this.New_Admission_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

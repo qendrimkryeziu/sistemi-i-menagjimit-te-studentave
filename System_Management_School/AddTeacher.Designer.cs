@@ -72,9 +72,9 @@ namespace System_Management_School
             this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
             this.label1.Location = new System.Drawing.Point(415, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(164, 26);
+            this.label1.Size = new System.Drawing.Size(165, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Basic Information";
+            this.label1.Text = "Informatat Bazike";
             // 
             // label2
             // 
@@ -82,9 +82,9 @@ namespace System_Management_School
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(89, 140);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 16);
+            this.label2.Size = new System.Drawing.Size(98, 16);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Full Name";
+            this.label2.Text = "Emri Mbiemri";
             // 
             // label3
             // 
@@ -92,9 +92,9 @@ namespace System_Management_School
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(89, 190);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 16);
+            this.label3.Size = new System.Drawing.Size(48, 16);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Gender";
+            this.label3.Text = "Gjinia";
             // 
             // label4
             // 
@@ -102,9 +102,9 @@ namespace System_Management_School
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(89, 242);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(93, 16);
+            this.label4.Size = new System.Drawing.Size(74, 16);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Data of Birth";
+            this.label4.Text = "Ditelindja";
             // 
             // label5
             // 
@@ -142,9 +142,9 @@ namespace System_Management_School
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(522, 191);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 16);
+            this.label8.Size = new System.Drawing.Size(67, 16);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Programming";
+            this.label8.Text = "Program";
             // 
             // label9
             // 
@@ -152,9 +152,9 @@ namespace System_Management_School
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(522, 243);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(66, 16);
+            this.label9.Size = new System.Drawing.Size(89, 16);
             this.label9.TabIndex = 9;
-            this.label9.Text = "Duration";
+            this.label9.Text = "Kohezgjatja";
             // 
             // label10
             // 
@@ -162,9 +162,9 @@ namespace System_Management_School
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(522, 307);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 16);
+            this.label10.Size = new System.Drawing.Size(58, 16);
             this.label10.TabIndex = 10;
-            this.label10.Text = "Address";
+            this.label10.Text = "Adresa";
             // 
             // txtFName
             // 
@@ -188,10 +188,10 @@ namespace System_Management_School
             this.radioMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioMale.Location = new System.Drawing.Point(213, 190);
             this.radioMale.Name = "radioMale";
-            this.radioMale.Size = new System.Drawing.Size(56, 20);
+            this.radioMale.Size = new System.Drawing.Size(79, 20);
             this.radioMale.TabIndex = 13;
             this.radioMale.TabStop = true;
-            this.radioMale.Text = "Male";
+            this.radioMale.Text = "Mashkull";
             this.radioMale.UseVisualStyleBackColor = true;
             // 
             // radioFemale
@@ -200,10 +200,10 @@ namespace System_Management_School
             this.radioFemale.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioFemale.Location = new System.Drawing.Point(304, 190);
             this.radioFemale.Name = "radioFemale";
-            this.radioFemale.Size = new System.Drawing.Size(72, 20);
+            this.radioFemale.Size = new System.Drawing.Size(65, 20);
             this.radioFemale.TabIndex = 14;
             this.radioFemale.TabStop = true;
-            this.radioFemale.Text = "Female";
+            this.radioFemale.Text = "Femer";
             this.radioFemale.UseVisualStyleBackColor = true;
             // 
             // dateTimePickerDOB
@@ -245,13 +245,13 @@ namespace System_Management_School
             this.TxtProgramming.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtProgramming.FormattingEnabled = true;
             this.TxtProgramming.Items.AddRange(new object[] {
-            "C Programming",
-            "C++",
-            "Java",
-            "JSP",
-            "C# (C sharp)",
-            "Python",
-            "PHP"});
+            "Shkenca Kompjuterike",
+            "Biznes dhe Menaxhment",
+            "Dizajn Grafik",
+            "Infiermeri",
+            "Gjuhe Angleze",
+            "Gjuhe Germane",
+            "Shkenca Politike"});
             this.TxtProgramming.Location = new System.Drawing.Point(650, 191);
             this.TxtProgramming.Name = "TxtProgramming";
             this.TxtProgramming.Size = new System.Drawing.Size(153, 24);
@@ -263,8 +263,10 @@ namespace System_Management_School
             this.txtDuration.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDuration.FormattingEnabled = true;
             this.txtDuration.Items.AddRange(new object[] {
-            "2020 -2023",
-            "2023-2026"});
+            "2019-2020",
+            "2020-2021",
+            "2021-2022",
+            "2022-2023"});
             this.txtDuration.Location = new System.Drawing.Point(650, 243);
             this.txtDuration.Name = "txtDuration";
             this.txtDuration.Size = new System.Drawing.Size(153, 24);
@@ -320,7 +322,7 @@ namespace System_Management_School
             this.Controls.Add(this.pictureBox1);
             this.Name = "AddTeacher";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AddTeacher";
+            this.Text = "Shto Profesorin";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

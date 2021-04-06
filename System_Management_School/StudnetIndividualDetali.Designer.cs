@@ -76,11 +76,11 @@ namespace System_Management_School
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DeepSkyBlue;
-            this.label1.Location = new System.Drawing.Point(323, 13);
+            this.label1.Location = new System.Drawing.Point(292, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(297, 26);
+            this.label1.Size = new System.Drawing.Size(327, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Search Individual Student Details";
+            this.label1.Text = "Kërko detaje individuale të studentit";
             // 
             // label2
             // 
@@ -88,9 +88,9 @@ namespace System_Management_School
             this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(217, 92);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 19);
+            this.label2.Size = new System.Drawing.Size(117, 19);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Registration ID";
+            this.label2.Text = "ID e Regjistrimit";
             // 
             // textBox1
             // 
@@ -106,7 +106,7 @@ namespace System_Management_School
             this.btnShowDetails.Name = "btnShowDetails";
             this.btnShowDetails.Size = new System.Drawing.Size(120, 24);
             this.btnShowDetails.TabIndex = 4;
-            this.btnShowDetails.Text = "Show Detalis";
+            this.btnShowDetails.Text = "Shiko Detajet";
             this.btnShowDetails.UseVisualStyleBackColor = true;
             this.btnShowDetails.Click += new System.EventHandler(this.btnShowDetails_Click);
             // 
@@ -116,9 +116,9 @@ namespace System_Management_School
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(90, 184);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 20);
+            this.label3.Size = new System.Drawing.Size(112, 20);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Full Name";
+            this.label3.Text = "Emri Mbiemri";
             // 
             // label4
             // 
@@ -126,9 +126,9 @@ namespace System_Management_School
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(90, 233);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 20);
+            this.label4.Size = new System.Drawing.Size(101, 20);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Father Name";
+            this.label4.Text = "Emri Prindit";
             // 
             // label5
             // 
@@ -136,9 +136,9 @@ namespace System_Management_School
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(90, 294);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 20);
+            this.label5.Size = new System.Drawing.Size(55, 20);
             this.label5.TabIndex = 7;
-            this.label5.Text = "Gender";
+            this.label5.Text = "Gjinia";
             // 
             // label6
             // 
@@ -146,9 +146,9 @@ namespace System_Management_School
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(90, 354);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(115, 20);
+            this.label6.Size = new System.Drawing.Size(99, 20);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Date Of Birth";
+            this.label6.Text = "Datalindjes";
             // 
             // label7
             // 
@@ -176,9 +176,9 @@ namespace System_Management_School
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(451, 184);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 20);
+            this.label9.Size = new System.Drawing.Size(86, 20);
             this.label9.TabIndex = 11;
-            this.label9.Text = "Standard";
+            this.label9.Text = "Semester";
             // 
             // label10
             // 
@@ -186,9 +186,9 @@ namespace System_Management_School
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(451, 233);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 20);
+            this.label10.Size = new System.Drawing.Size(80, 20);
             this.label10.TabIndex = 12;
-            this.label10.Text = "Medium";
+            this.label10.Text = "Programi";
             // 
             // label11
             // 
@@ -196,9 +196,9 @@ namespace System_Management_School
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(451, 294);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(115, 20);
+            this.label11.Size = new System.Drawing.Size(118, 20);
             this.label11.TabIndex = 13;
-            this.label11.Text = "School Name";
+            this.label11.Text = "Emri Shkolles";
             // 
             // label12
             // 
@@ -206,9 +206,9 @@ namespace System_Management_School
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(451, 354);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(47, 20);
+            this.label12.Size = new System.Drawing.Size(35, 20);
             this.label12.TabIndex = 14;
-            this.label12.Text = "Year";
+            this.label12.Text = "Viti";
             // 
             // label13
             // 
@@ -216,9 +216,9 @@ namespace System_Management_School
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(451, 412);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(75, 20);
+            this.label13.Size = new System.Drawing.Size(66, 20);
             this.label13.TabIndex = 15;
-            this.label13.Text = "Address";
+            this.label13.Text = "Adresa";
             // 
             // labelFullName
             // 
@@ -375,7 +375,7 @@ namespace System_Management_School
             this.Controls.Add(this.pictureBox1);
             this.Name = "StudentIndividualDetali";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StudentIndividualDetali";
+            this.Text = "Detajet individuale të Studentit";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

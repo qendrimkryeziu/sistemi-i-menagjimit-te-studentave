@@ -57,9 +57,9 @@ namespace System_Management_School
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.label1.Location = new System.Drawing.Point(285, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 26);
+            this.label1.Size = new System.Drawing.Size(155, 26);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Search Teacher";
+            this.label1.Text = "Kërko Profesorin";
             // 
             // label2
             // 
@@ -67,9 +67,9 @@ namespace System_Management_School
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(223, 99);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 20);
+            this.label2.Size = new System.Drawing.Size(143, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Registration ID:";
+            this.label2.Text = "ID e Regjistrimit:";
             // 
             // textBox1
             // 
@@ -110,7 +110,7 @@ namespace System_Management_School
             this.Controls.Add(this.pictureBox1);
             this.Name = "SearchTeacher";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SearchTeacher";
+            this.Text = "Kërko Profesorin";
             this.Load += new System.EventHandler(this.SearchTeacher_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

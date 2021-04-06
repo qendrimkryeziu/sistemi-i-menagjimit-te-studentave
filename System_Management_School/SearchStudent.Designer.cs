@@ -54,11 +54,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(286, 50);
+            this.label1.Location = new System.Drawing.Point(324, 27);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 23);
+            this.label1.Size = new System.Drawing.Size(122, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Search Student";
+            this.label1.Text = "Kërko Student";
             // 
             // label2
             // 
@@ -66,25 +66,25 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(213, 111);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 23);
+            this.label2.Size = new System.Drawing.Size(144, 23);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Registration ID:";
+            this.label2.Text = "ID e Regjistrimit:";
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(352, 108);
+            this.textBox1.Location = new System.Drawing.Point(363, 108);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(166, 31);
             this.textBox1.TabIndex = 3;
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(402, 154);
+            this.btnSearch.Location = new System.Drawing.Point(413, 154);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 4;
-            this.btnSearch.Text = "Search";
+            this.btnSearch.Text = "Kërko";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
@@ -109,7 +109,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "SearchStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SearchStudent";
+            this.Text = "Kërko Studentët";
             this.Load += new System.EventHandler(this.SearchStudent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

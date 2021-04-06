@@ -84,7 +84,9 @@ namespace System_Management_School
             DataSet DS = new DataSet();
             DA.Fill(DS);
 
-            Int64 abc = Convert.ToInt64(DS.Tables[0].Rows[0][0]);
+            Int64 abc;
+
+            abc = Convert.ToInt64(DS.Tables[0].Rows[0][0]);
             label13.Text = (abc + 1).ToString();
         }
     }

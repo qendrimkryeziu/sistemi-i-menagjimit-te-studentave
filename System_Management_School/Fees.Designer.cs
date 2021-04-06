@@ -60,9 +60,9 @@
             this.label1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(31, 217);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 23);
+            this.label1.Size = new System.Drawing.Size(167, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Registration Number";
+            this.label1.Text = "Numri i Regjistrimit";
             // 
             // label2
             // 
@@ -70,9 +70,9 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(66, 250);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(90, 23);
+            this.label2.Size = new System.Drawing.Size(119, 23);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Full Name";
+            this.label2.Text = "Emri Mbiemri";
             // 
             // label3
             // 
@@ -80,9 +80,9 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(66, 294);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 23);
+            this.label3.Size = new System.Drawing.Size(104, 23);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Father Name";
+            this.label3.Text = "Emri Prindit";
             // 
             // label4
             // 
@@ -90,9 +90,9 @@
             this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(66, 339);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(79, 23);
+            this.label4.Size = new System.Drawing.Size(102, 23);
             this.label4.TabIndex = 4;
-            this.label4.Text = "Duration";
+            this.label4.Text = "Kohezgjatja";
             // 
             // label5
             // 
@@ -100,9 +100,9 @@
             this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(66, 379);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(47, 23);
+            this.label5.Size = new System.Drawing.Size(54, 23);
             this.label5.TabIndex = 5;
-            this.label5.Text = "Fees";
+            this.label5.Text = "Tarifa";
             // 
             // txtRegNumber
             // 
@@ -182,7 +182,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Fees";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Fees";
+            this.Text = "Tarifa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
