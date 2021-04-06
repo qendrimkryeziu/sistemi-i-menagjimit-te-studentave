@@ -273,9 +273,7 @@
             "3rd Sem",
             "4th Sem",
             "5th Sem",
-            "6th Sem",
-            "7th Sem",
-            "8th Sem"});
+            "6th Sem"});
             this.txtSemester.Location = new System.Drawing.Point(629, 119);
             this.txtSemester.Name = "txtSemester";
             this.txtSemester.Size = new System.Drawing.Size(143, 26);
