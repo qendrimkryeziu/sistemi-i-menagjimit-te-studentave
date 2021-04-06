@@ -147,25 +147,24 @@
             this.newAdminissionToolStripMenuItem,
             this.upgradeSemesterToolStripMenuItem});
             this.admissionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("admissionToolStripMenuItem.Image")));
-            this.admissionToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.admissionToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.admissionToolStripMenuItem.Name = "admissionToolStripMenuItem";
-            this.admissionToolStripMenuItem.Size = new System.Drawing.Size(76, 83);
-            this.admissionToolStripMenuItem.Text = "Admission";
+            this.admissionToolStripMenuItem.Size = new System.Drawing.Size(87, 83);
+            this.admissionToolStripMenuItem.Text = "Administrata";
             this.admissionToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
             // newAdminissionToolStripMenuItem
             // 
             this.newAdminissionToolStripMenuItem.Name = "newAdminissionToolStripMenuItem";
-            this.newAdminissionToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.newAdminissionToolStripMenuItem.Text = "New Adminission";
+            this.newAdminissionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newAdminissionToolStripMenuItem.Text = "Student i ri";
             this.newAdminissionToolStripMenuItem.Click += new System.EventHandler(this.newAdminissionToolStripMenuItem_Click);
             // 
             // upgradeSemesterToolStripMenuItem
             // 
             this.upgradeSemesterToolStripMenuItem.Name = "upgradeSemesterToolStripMenuItem";
-            this.upgradeSemesterToolStripMenuItem.Size = new System.Drawing.Size(170, 22);
-            this.upgradeSemesterToolStripMenuItem.Text = "Upgrade Semester";
+            this.upgradeSemesterToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.upgradeSemesterToolStripMenuItem.Text = "Azhurnimi i Semester";
             this.upgradeSemesterToolStripMenuItem.Click += new System.EventHandler(this.upgradeSemesterToolStripMenuItem_Click);
             // 
             // feesToolStripMenuItem
@@ -175,7 +174,7 @@
             this.feesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.feesToolStripMenuItem.Name = "feesToolStripMenuItem";
             this.feesToolStripMenuItem.Size = new System.Drawing.Size(76, 83);
-            this.feesToolStripMenuItem.Text = "Fees";
+            this.feesToolStripMenuItem.Text = "Tarifat";
             this.feesToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.feesToolStripMenuItem.Click += new System.EventHandler(this.feesToolStripMenuItem_Click);
             // 
@@ -187,22 +186,22 @@
             this.studentDetailsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("studentDetailsToolStripMenuItem.Image")));
             this.studentDetailsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.studentDetailsToolStripMenuItem.Name = "studentDetailsToolStripMenuItem";
-            this.studentDetailsToolStripMenuItem.Size = new System.Drawing.Size(98, 83);
-            this.studentDetailsToolStripMenuItem.Text = "Student Details";
+            this.studentDetailsToolStripMenuItem.Size = new System.Drawing.Size(96, 83);
+            this.studentDetailsToolStripMenuItem.Text = "Detaje Student";
             this.studentDetailsToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
             // searchStudentToolStripMenuItem
             // 
             this.searchStudentToolStripMenuItem.Name = "searchStudentToolStripMenuItem";
-            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.searchStudentToolStripMenuItem.Text = "Search Student";
+            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchStudentToolStripMenuItem.Text = "Kërko Student";
             this.searchStudentToolStripMenuItem.Click += new System.EventHandler(this.searchStudentToolStripMenuItem_Click);
             // 
             // individualDetailsToolStripMenuItem
             // 
             this.individualDetailsToolStripMenuItem.Name = "individualDetailsToolStripMenuItem";
-            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
-            this.individualDetailsToolStripMenuItem.Text = "Individual Details";
+            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.individualDetailsToolStripMenuItem.Text = "Detaje Individuale";
             this.individualDetailsToolStripMenuItem.Click += new System.EventHandler(this.individualDetailsToolStripMenuItem_Click);
             // 
             // teachersToolStripMenuItem
@@ -214,21 +213,21 @@
             this.teachersToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.teachersToolStripMenuItem.Name = "teachersToolStripMenuItem";
             this.teachersToolStripMenuItem.Size = new System.Drawing.Size(76, 83);
-            this.teachersToolStripMenuItem.Text = "Teachers";
+            this.teachersToolStripMenuItem.Text = "Profesorët";
             this.teachersToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             // 
             // addTeacherInformationToolStripMenuItem
             // 
             this.addTeacherInformationToolStripMenuItem.Name = "addTeacherInformationToolStripMenuItem";
-            this.addTeacherInformationToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.addTeacherInformationToolStripMenuItem.Text = "Add Teacher Information";
+            this.addTeacherInformationToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.addTeacherInformationToolStripMenuItem.Text = "Shto Profesorë të rinjë";
             this.addTeacherInformationToolStripMenuItem.Click += new System.EventHandler(this.addTeacherInformationToolStripMenuItem_Click);
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(205, 22);
-            this.searchToolStripMenuItem.Text = "Search";
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
+            this.searchToolStripMenuItem.Text = "Kërko Profesorë";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // removeStudentToolStripMenuItem
@@ -236,8 +235,8 @@
             this.removeStudentToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("removeStudentToolStripMenuItem.Image")));
             this.removeStudentToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.removeStudentToolStripMenuItem.Name = "removeStudentToolStripMenuItem";
-            this.removeStudentToolStripMenuItem.Size = new System.Drawing.Size(106, 83);
-            this.removeStudentToolStripMenuItem.Text = "Remove Student";
+            this.removeStudentToolStripMenuItem.Size = new System.Drawing.Size(103, 83);
+            this.removeStudentToolStripMenuItem.Text = "Fshije Studentin";
             this.removeStudentToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.removeStudentToolStripMenuItem.Click += new System.EventHandler(this.removeStudentToolStripMenuItem_Click);
             // 
@@ -246,8 +245,8 @@
             this.aboutUsToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aboutUsToolStripMenuItem.Image")));
             this.aboutUsToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.aboutUsToolStripMenuItem.Name = "aboutUsToolStripMenuItem";
-            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(76, 83);
-            this.aboutUsToolStripMenuItem.Text = "About Us";
+            this.aboutUsToolStripMenuItem.Size = new System.Drawing.Size(77, 83);
+            this.aboutUsToolStripMenuItem.Text = "Kontaktoni";
             this.aboutUsToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.aboutUsToolStripMenuItem.Click += new System.EventHandler(this.aboutUsToolStripMenuItem_Click);
             // 
@@ -256,8 +255,8 @@
             this.exitSystemToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("exitSystemToolStripMenuItem.Image")));
             this.exitSystemToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.exitSystemToolStripMenuItem.Name = "exitSystemToolStripMenuItem";
-            this.exitSystemToolStripMenuItem.Size = new System.Drawing.Size(79, 83);
-            this.exitSystemToolStripMenuItem.Text = "Exit System";
+            this.exitSystemToolStripMenuItem.Size = new System.Drawing.Size(96, 83);
+            this.exitSystemToolStripMenuItem.Text = "Dil nga sistemi";
             this.exitSystemToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.exitSystemToolStripMenuItem.Click += new System.EventHandler(this.exitSystemToolStripMenuItem_Click);
             // 
@@ -272,7 +271,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sistemi i menaxhimit të Universitetit";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

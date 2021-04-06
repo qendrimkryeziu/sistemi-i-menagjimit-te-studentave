@@ -63,11 +63,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 84);
+            this.label1.Location = new System.Drawing.Point(25, 84);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 13);
+            this.label1.Size = new System.Drawing.Size(70, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Regjistraion No:";
+            this.label1.Text = "Regjistimi NR";
             // 
             // label2
             // 
@@ -75,9 +75,9 @@
             this.label2.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(65, 115);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 23);
+            this.label2.Size = new System.Drawing.Size(119, 23);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Ful Name";
+            this.label2.Text = "Emri Mbiemri";
             // 
             // label3
             // 
@@ -85,9 +85,9 @@
             this.label3.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(65, 161);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 23);
+            this.label3.Size = new System.Drawing.Size(113, 23);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Father\'s Name";
+            this.label3.Text = "Emri i Prindit";
             // 
             // label4
             // 
@@ -95,9 +95,9 @@
             this.label4.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(65, 211);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(69, 23);
+            this.label4.Size = new System.Drawing.Size(56, 23);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Gender";
+            this.label4.Text = "Gjinia";
             // 
             // label5
             // 
@@ -105,9 +105,9 @@
             this.label5.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(65, 263);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 23);
+            this.label5.Size = new System.Drawing.Size(88, 23);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Date of Birth";
+            this.label5.Text = "Ditelindja";
             // 
             // label6
             // 
@@ -135,9 +135,9 @@
             this.label8.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(488, 165);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 23);
+            this.label8.Size = new System.Drawing.Size(77, 23);
             this.label8.TabIndex = 7;
-            this.label8.Text = "Programming";
+            this.label8.Text = "Program";
             // 
             // label9
             // 
@@ -145,9 +145,9 @@
             this.label9.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(488, 215);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(113, 23);
+            this.label9.Size = new System.Drawing.Size(115, 23);
             this.label9.TabIndex = 8;
-            this.label9.Text = "School Name";
+            this.label9.Text = "Emri Shkolles";
             // 
             // label10
             // 
@@ -155,9 +155,9 @@
             this.label10.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(488, 267);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 23);
+            this.label10.Size = new System.Drawing.Size(37, 23);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Duration";
+            this.label10.Text = "Viti";
             // 
             // label11
             // 
@@ -287,13 +287,13 @@
             this.txtProgramming.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtProgramming.FormattingEnabled = true;
             this.txtProgramming.Items.AddRange(new object[] {
-            "C Programming",
-            "C++",
-            "Java",
-            "JSP",
-            "C# (C sharp)",
-            "Python",
-            "PHP"});
+            "Shkenca Kompjuterike",
+            "Biznes dhe Menaxhment",
+            "Dizajn Grafik",
+            "Infiermeri",
+            "Gjuhe Angleze",
+            "Gjuhe Germane",
+            "Shkenca Politike"});
             this.txtProgramming.Location = new System.Drawing.Point(629, 165);
             this.txtProgramming.Name = "txtProgramming";
             this.txtProgramming.Size = new System.Drawing.Size(143, 26);
@@ -306,6 +306,8 @@
             this.txtDuration.FormattingEnabled = true;
             this.txtDuration.Items.AddRange(new object[] {
             "2019-2022",
+            "2020-2023",
+            "2021-2024",
             "2022-2025"});
             this.txtDuration.Location = new System.Drawing.Point(629, 265);
             this.txtDuration.Name = "txtDuration";
