@@ -137,6 +137,8 @@
             this.Controls.Add(this.comboBoxFrom);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "UpgradeSemester";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UpgradeSemester";
