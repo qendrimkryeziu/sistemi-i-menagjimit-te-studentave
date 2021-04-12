@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,31 +13,57 @@ namespace System_Management_School
 {
     public partial class Form1 : Form
     {
+        SqlConnection con = new SqlConnection();
+        SqlCommand com = new SqlCommand();
+
         public Form1()
         {
             InitializeComponent();
+            con.ConnectionString = @"Data Source=DESKTOP-MJV39V9;Initial Catalog=Login;Integrated Security=True";
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             menuStrip1.Visible = false;
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
-            string password = textBox2.Text;
+            con.Open();
+            com.Connection = con;
+            com.CommandText = "select * from log";
+            SqlDataReader dr = com.ExecuteReader();
+            if (dr.Read())
+            {
+                if (txtUsername.Text.Equals(dr["username"].ToString()) && txtPassword.Text.Equals(dr["password"].ToString()))
+                {
+                    menuStrip1.Visible = true;
+                    panel1.Visible = false;
+                }
+                else if (MessageBox.Show("Kujdes Emri Perdoruesit ose Password është gabim!\nDeshironi ta mbyllni aplikacionin", "Diqka shkoi gabim", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+                {
+                    Application.Exit();
+                }
+                
+            }
+            con.Close();
+
+            //string username = textBox1.Text;
+            //string password = textBox2.Text;
 
             //if (username == "student" && password == "student")
             //{
-                menuStrip1.Visible = true;
-                panel1.Visible = false;
+            /*    menuStrip1.Visible = true;
+                panel1.Visible = false;*/
             //}
             //else
             //{
             //    MessageBox.Show("Invalid userid or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             //}
         }
+
+        
 
         private void newAdminissionToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -100,6 +127,38 @@ namespace System_Management_School
             }
 
             
+        }
+
+        private void txtUserEnter(object sender, EventArgs e)
+        {
+            if (txtUsername.Text.Equals(@"Emri Perdoruesit"))
+            {
+                txtUsername.Text = "";
+            }
+        }
+
+        private void txtUserLeave(object sender, EventArgs e)
+        {
+            if (txtUsername.Text.Equals(@"Emri Perdoruesit"))
+            {
+                txtUsername.Text = "";
+            }
+        }
+
+        private void txtPassEnter(object sender, EventArgs e)
+        {
+            if (txtPassword.Text.Equals("Password"))
+            {
+                txtPassword.Text = "";
+            }
+        }
+
+        private void txtPassLeave(object sender, EventArgs e)
+        {
+            if (txtPassword.Text.Equals(""))
+            {
+                txtPassword.Text = "Password";
+            }
         }
     }
 }

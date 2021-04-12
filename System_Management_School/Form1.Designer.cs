@@ -30,12 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.admissionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newAdminissionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,80 +46,51 @@
             this.removeStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitSystemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.txtUsername = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.txtPassword = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.btnLogin);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(488, 237);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Location = new System.Drawing.Point(435, 237);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(331, 208);
+            this.panel1.Size = new System.Drawing.Size(519, 353);
             this.panel1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(164, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(164, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 4;
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(111, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(147, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(121, 40);
+            this.pictureBox1.Size = new System.Drawing.Size(140, 48);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(164, 162);
+            this.btnLogin.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnLogin.Location = new System.Drawing.Point(157, 193);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(83, 23);
+            this.btnLogin.Size = new System.Drawing.Size(121, 29);
             this.btnLogin.TabIndex = 2;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Text = "LOG IN";
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(51, 117);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 24);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Password";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(49, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
             // 
             // menuStrip1
             // 
@@ -137,7 +104,7 @@
             this.exitSystemToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(844, 87);
+            this.menuStrip1.Size = new System.Drawing.Size(954, 87);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -156,7 +123,7 @@
             // newAdminissionToolStripMenuItem
             // 
             this.newAdminissionToolStripMenuItem.Name = "newAdminissionToolStripMenuItem";
-            this.newAdminissionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newAdminissionToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
             this.newAdminissionToolStripMenuItem.Text = "Student i ri";
             this.newAdminissionToolStripMenuItem.Click += new System.EventHandler(this.newAdminissionToolStripMenuItem_Click);
             // 
@@ -193,14 +160,14 @@
             // searchStudentToolStripMenuItem
             // 
             this.searchStudentToolStripMenuItem.Name = "searchStudentToolStripMenuItem";
-            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.searchStudentToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.searchStudentToolStripMenuItem.Text = "Kërko Student";
             this.searchStudentToolStripMenuItem.Click += new System.EventHandler(this.searchStudentToolStripMenuItem_Click);
             // 
             // individualDetailsToolStripMenuItem
             // 
             this.individualDetailsToolStripMenuItem.Name = "individualDetailsToolStripMenuItem";
-            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.individualDetailsToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.individualDetailsToolStripMenuItem.Text = "Detaje Individuale";
             this.individualDetailsToolStripMenuItem.Click += new System.EventHandler(this.individualDetailsToolStripMenuItem_Click);
             // 
@@ -260,25 +227,91 @@
             this.exitSystemToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.exitSystemToolStripMenuItem.Click += new System.EventHandler(this.exitSystemToolStripMenuItem_Click);
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.txtPassword);
+            this.panel2.Controls.Add(this.txtUsername);
+            this.panel2.Controls.Add(this.pictureBox1);
+            this.panel2.Controls.Add(this.btnLogin);
+            this.panel2.Location = new System.Drawing.Point(50, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(421, 263);
+            this.panel2.TabIndex = 6;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(519, 121);
+            this.panel3.TabIndex = 7;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsername.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtUsername.HintForeColor = System.Drawing.Color.Empty;
+            this.txtUsername.HintText = "";
+            this.txtUsername.isPassword = false;
+            this.txtUsername.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txtUsername.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtUsername.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txtUsername.LineThickness = 3;
+            this.txtUsername.Location = new System.Drawing.Point(70, 58);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(4);
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.Size = new System.Drawing.Size(281, 44);
+            this.txtUsername.TabIndex = 4;
+            this.txtUsername.Text = "Emri Perdoruesit";
+            this.txtUsername.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtUsername.Enter += new System.EventHandler(this.txtUserEnter);
+            this.txtUsername.Leave += new System.EventHandler(this.txtUserLeave);
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtPassword.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtPassword.HintForeColor = System.Drawing.Color.Empty;
+            this.txtPassword.HintText = "";
+            this.txtPassword.isPassword = true;
+            this.txtPassword.LineFocusedColor = System.Drawing.Color.Blue;
+            this.txtPassword.LineIdleColor = System.Drawing.Color.Gray;
+            this.txtPassword.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.txtPassword.LineThickness = 3;
+            this.txtPassword.Location = new System.Drawing.Point(70, 121);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(281, 44);
+            this.txtPassword.TabIndex = 5;
+            this.txtPassword.Text = "Password";
+            this.txtPassword.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPassword.Enter += new System.EventHandler(this.txtPassEnter);
+            this.txtPassword.Leave += new System.EventHandler(this.txtPassLeave);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(844, 496);
+            this.ClientSize = new System.Drawing.Size(954, 602);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Sistemi i menaxhimit të Universitetit";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,8 +322,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem admissionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newAdminissionToolStripMenuItem;
@@ -305,8 +336,10 @@
         private System.Windows.Forms.ToolStripMenuItem removeStudentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitSystemToolStripMenuItem;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel2;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtPassword;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox txtUsername;
+        private System.Windows.Forms.Panel panel3;
     }
 }
 
