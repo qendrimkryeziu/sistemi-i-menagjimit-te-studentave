@@ -41,7 +41,7 @@ namespace System_Management_School
                     menuStrip1.Visible = true;
                     panel1.Visible = false;
                 }
-                else if (MessageBox.Show("Kujdes Emri Perdoruesit ose Password është gabim!\nDeshironi ta mbyllni aplikacionin", "Diqka shkoi gabim", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
+                else if (MessageBox.Show("Kujdes Emri Perdoruesit ose Password është gabim!\nDeshironi ta mbyllni aplikacionin?", "Diqka shkoi gabim", MessageBoxButtons.OKCancel, MessageBoxIcon.Information) == DialogResult.OK)
                 {
                     Application.Exit();
                 }
@@ -139,7 +139,7 @@ namespace System_Management_School
 
         private void txtUserLeave(object sender, EventArgs e)
         {
-            if (txtUsername.Text.Equals(@"Emri Perdoruesit"))
+            if (txtUsername.Text.Equals("Emri Perdoruesit"))
             {
                 txtUsername.Text = "";
             }

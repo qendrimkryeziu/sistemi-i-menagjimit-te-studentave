@@ -245,7 +245,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(519, 121);
+            this.panel3.Size = new System.Drawing.Size(519, 128);
             this.panel3.TabIndex = 7;
             // 
             // txtUsername
