@@ -19,7 +19,7 @@ namespace System_Management_School
         public Form1()
         {
             InitializeComponent();
-            con.ConnectionString = @"Data Source=DESKTOP-MJV39V9;Initial Catalog=Login;Integrated Security=True";
+            con.ConnectionString = @"Data Source=DESKTOP-MJV39V9;Initial Catalog=college;Integrated Security=True";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -32,7 +32,7 @@ namespace System_Management_School
         {
             con.Open();
             com.Connection = con;
-            com.CommandText = "select * from log";
+            com.CommandText = "select * from login";
             SqlDataReader dr = com.ExecuteReader();
             if (dr.Read())
             {
@@ -67,8 +67,8 @@ namespace System_Management_School
 
         private void newAdminissionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            New_Admission na = new New_Admission();
-            na.Show();
+              New_Admission na = new New_Admission();
+              na.Show(); 
         }
 
         private void upgradeSemesterToolStripMenuItem_Click(object sender, EventArgs e)
