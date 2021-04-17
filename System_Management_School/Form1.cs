@@ -48,7 +48,8 @@ namespace System_Management_School
                 
             }
             con.Close();
-
+            
+            // menyra automatike se si te kyqemi mbrena programimit
             //string username = textBox1.Text;
             //string password = textBox2.Text;
 
@@ -61,6 +62,7 @@ namespace System_Management_School
             //{
             //    MessageBox.Show("Invalid userid or password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             //}
+            
         }
 
         
