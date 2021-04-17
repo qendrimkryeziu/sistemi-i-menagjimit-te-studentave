@@ -48,7 +48,7 @@ namespace System_Management_School
                 
             }
             con.Close();
-            
+            //na mundeson per tu qasur me lehte
             // menyra automatike se si te kyqemi mbrena programimit
             //string username = textBox1.Text;
             //string password = textBox2.Text;
