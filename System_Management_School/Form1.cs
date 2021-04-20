@@ -19,7 +19,7 @@ namespace System_Management_School
         public Form1()
         {
             InitializeComponent();
-            con.ConnectionString = @"Data Source=DESKTOP-MJV39V9;Initial Catalog=college;Integrated Security=True";
+            con.ConnectionString = @"Data Source=DESKTOP-O1STIDV;Initial Catalog=college;Integrated Security=True";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -48,6 +48,9 @@ namespace System_Management_School
                 
             }
             con.Close();
+
+            
+            
             //na mundeson per tu qasur me lehte
             // menyra automatike se si te kyqemi mbrena programimit
             //string username = textBox1.Text;
